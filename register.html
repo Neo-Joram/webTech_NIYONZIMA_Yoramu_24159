@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NIYONZIMA Yoramu 24159" />
+    <title>Work</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="regForm">
+      <div class="header">
+        <h2>Register</h2>
+        <p>Create new free account</p>
+      </div>
+      <form action="" id="form">
+        <input type="text" id="fname" placeholder="FirstName" class="name" />
+        <input type="text" id="lname" placeholder="LastName" class="name" />
+        <input
+          type="email"
+          id="email"
+          placeholder="Email.."
+          autocomplete="email"
+        />
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Telephone.."
+          autocomplete="tel"
+        />
+        <input type="date" id="dob" required />
+        <select name="gender" id="gender" required>
+          <option value="Your gender">Your gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Prefer Not to Say">PNS</option>
+        </select>
+        <select name="Address" id="1" required autocomplete="address-level1">
+          <option value="Address">Select Address</option>
+          <option value="Kigali">Kigali</option>
+          <option value="Eastern">Eastern</option>
+          <option value="Western">Western</option>
+          <option value="Nothern">Nothern</option>
+          <option value="Southern">Southern</option>
+        </select>
+        <input
+          type="text"
+          id="org"
+          placeholder="Organization"
+          autocomplete="organization"
+        />
+        <input type="password" id="password" placeholder="Password.." />
+        <input type="password" id="password2" placeholder="repeat password.." />
+
+        <a href="index.html">Not new, Login</a>
+        <button disabled id="btn" type="submit">Register</button>
+      </form>
+      <div class="design"></div>
+    </div>
+  </body>
+</html>

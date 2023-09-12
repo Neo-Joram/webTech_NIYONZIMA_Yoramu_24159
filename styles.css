@@ -1,0 +1,124 @@
+/* CSS file */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./data/bgImg.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regForm {
+  background: lightgray;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem 0;
+}
+.regForm .header {
+  padding: 1rem 0.5rem;
+}
+.header h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #8c8cdf;
+}
+.header p {
+  text-align: center;
+  font-size: 15px;
+}
+.regForm form {
+  padding: 0 1.5rem;
+  /* position: absolute; */
+  z-index: 0;
+}
+form input,
+select {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 0.45rem 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 0 0 gray;
+}
+form .error {
+  border: 2px solid rgb(193, 73, 73);
+}
+form .success {
+  border: 2px solid rgb(35, 188, 35);
+}
+
+form .name {
+  width: 48%;
+}
+form a {
+  line-height: 50px;
+  cursor: pointer;
+  color: rgb(90, 90, 216);
+}
+form button {
+  padding: 0.6rem 1.5rem;
+  margin: 0.25rem 0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 3px 0 0;
+  background: rgb(91, 107, 209);
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+.design {
+  height: 140%;
+  width: 100%;
+  background: cornflowerblue;
+  top: 10rem;
+  transform: rotate(50deg);
+  left: 50%;
+  position: absolute;
+  z-index: 0;
+  display: none;
+}
+.main {
+  width: 80%;
+  height: 80%;
+  background-color: lightgray;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.navbar {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar h2 {
+  font-size: 25px;
+  color: aliceblue;
+}
+.navbar button {
+  border: none;
+  background-color: transparent;
+  color: aliceblue;
+  font-weight: bold;
+}
+.content {
+  padding: 2rem;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
